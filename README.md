@@ -1,8 +1,7 @@
 # opencart-category-discount
-Opencart 2.x versiyonu için geçerlidir.<br/>
-Uygulamadan önce mutalaka yedek alınız.<br/>
-Opencart kategori bazlı indirim ve zam uygulama. Berlittiğiniz kategorilerderki ürünlere zamn ve indirim oranı belirterek toplu şekilde uygulama yapabilirsiniz.<br/>
-Dosyaları yükledikten sonra admin > view > template > common > menu.tpl dosyanızı düzenleme yapamnız gerekmektedir.<br/>
-Dosyanızı açtıktan sonra görünmesini istediğiniz bölüme <li><a href="<?php echo $category_discount; ?>">Kategori Fiyat işlemleri</a></li> kodunu ekleyip tekrar aynı yere yükleyiniz.<br/>
-Yaşanılan sorunlarda kod geliştirici sorumlu değildir.<br/>
-
+Valid for Opencart 2.x version. <br/>
+Make sure to make a backup before applying. <br/>
+Opencart category-based discount and raise application. You can apply collectively by specifying the time and discount rate for the products in the categories you have specified. <br/>
+After uploading the files, you need to edit your admin> view> template> common> menu.tpl file. <br/>
+After opening your file, add the <li> <a href="<?php echo $category_discount; ?> "> Category Price operations </a> </li> code to the section you want to appear and upload it to the same place. <br/>
+The code developer is not responsible for the problems encountered. <br/> 
